@@ -1,0 +1,178 @@
+.main-collection-title {
+  line-height: 1.2;
+  font-size: 40px;
+  font-weight: 400;
+  margin: 25px 0 10px 50px;
+}
+.main-collection-description {
+  margin-bottom: 25px;
+  line-height: 1.6;
+  margin: 0 0 25px 50px;
+}
+.products-section {
+  display: grid;
+  grid-template-columns: 400px 400px 400px;
+  column-gap: 25px;
+  row-gap: 25px;
+  margin: 0 50px 0 50px;
+  justify-content: center;
+}
+
+.product1 {
+  display: grid;
+  margin: none;
+  position: relative;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.126);
+  border-radius: 5px;
+  width: 400px;
+  
+}
+
+.discount-tag {
+  position:absolute;
+  z-index: 10;
+  background-color: red;
+  color: white;
+  padding: 2px 5px;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-left: 350px;
+}
+
+.product-card-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.product-info {
+
+}
+.product-info-text {
+  font-size: 18px;
+  margin: 10px 0 10px 10px;
+}
+.product-price {
+  display: flex;
+  flex-direction: row;
+  height: 40px;
+  margin: none;
+  align-items: center;
+  margin-left: 10px;
+
+}
+
+.orginal-price {
+  text-decoration: line-through;
+  color: rgb(129, 129, 129);
+  margin-right: 0 60px 0 0;
+  font-size: 15px;
+}
+
+.discount-price {
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  margin-right: 15px;
+}
+
+.add-to-cart-button {
+  background-color: #a8642f;
+  color: white;
+  border-style: solid;
+  border-color: #a8642f;
+  border-radius: 5px;
+  padding: 7px 29px;
+  margin: 0 10px 10px 10px;
+  font-size: 16px;
+}
+
+.about-company-section {
+  display: flex;
+  column-gap: 35px;
+  justify-content: center;
+  margin-top: 70px; 
+  
+}
+.image-about-comapny-section {
+  width: 610px;
+  height: 400px;
+  overflow: hidden;
+}
+
+.about-company-info {
+  width: 610px;
+  height: 400px;
+  margin: 0 0 0 10px;
+}
+
+.about-company-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+  
+}
+
+.about-company-heading {
+  line-height: 1.2;
+  font-size: 40px;
+  font-weight: 400;
+  margin-top: 80px;
+}
+
+.read-more-button {
+  background-color: #a8642f;
+  color: white;
+  border-style: solid;
+  border-color: #a8642f;
+  border-radius: 5px;
+  padding: 15px 29px;
+  margin-top: 15px;
+  font-size: 15px;
+  
+}
+
+.blogs-section-heading {
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 0;
+  line-height: 1.2;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.blogs-section-main {
+  display: flex;
+  flex-direction: row;
+  column-gap: 25px;
+  justify-content: center;
+  margin: 0;
+}
+
+.blog-card {
+  width: 400px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  margin-top: 25px;
+}
+
+.blog-image {
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.blog-text-section {
+  height: 200px;
+  margin: 10px 10px -25px 10px; 
+}
+
+.blog-title {
+  margin-bottom: 0;
+  line-height: 1.1;
+  font-size: 22px;
+  font-weight: 500;
+}

@@ -1,0 +1,98 @@
+.reviews-section-heading {
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 45px;
+  line-height: 1.2;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.review-box {
+  display: flex;
+  flex-direction: row;
+  column-gap: 25px;
+  width: 800px;
+  height: 110px;
+  justify-content: center;
+  align-items: center;
+  border-color: #2f4f3eb9;
+  border-style: solid;
+  border-radius: 35px;
+  margin: 0 auto;
+}
+
+.review-dp {
+  width: 60px;
+  height: 60px;
+  border-radius: 35px;
+  margin-left: 20px;
+  border: solid;
+  border-color: rgb(41, 41, 41);
+  border-width: 0.7px;
+
+}
+
+.review-text-section {
+  padding: 0 20px 0 0;
+}
+
+.customer-name {
+  text-align: right;
+}
+.arrow-line {
+  display: flex;
+  column-gap: 10px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.right-arrow, .left-arrow {
+  background-color: #2f4f3eb9;
+  color: white;
+  border: none;
+  height: 25px;
+  width: 35px;
+}
+
+.contact-us-section {
+  display: flex;
+  justify-content: center;
+  column-gap: 25px;
+  margin-top: 80px;
+}
+.contact-us-form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  align-items: middle;
+}
+
+.contact-us-heading {
+  line-height: 1.2;
+  font-size: 43px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  margin-top: 7px;
+}
+
+input {
+  height: 35px;
+  width: 500px;
+  margin-bottom: 4px;
+}
+
+.message-input {
+  height: 123px;
+}
+
+.send-button {
+  background-color: #2F4F3E;
+  color: white;
+  border-style: solid;
+  border-color: #2F4F3E;
+  border-radius: 5px;
+  padding: 15px 29px;
+  margin-top: 15px;
+  margin-bottom: 0;
+  font-size: 15px;
+}

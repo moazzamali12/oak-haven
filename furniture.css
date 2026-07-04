@@ -1,0 +1,113 @@
+body {
+  font-family: roboto, arial;
+  margin: 0;
+  height: 5000px;
+}
+
+a {
+text-decoration: none;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  display: fixed;
+}
+.logo {
+  width: 100%;
+  padding-left: 40px;
+  padding: 0;
+  margin-top: 10px;
+}
+.nav-left-section {
+  display: flex;
+  height: 60px;
+  width: 250px;
+  align-items: center;
+  margin: 0;
+  
+}
+.nav-middle-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  width: 900px;
+
+}
+.nav-middle-links {
+  color: black;
+  margin: 0 35px;
+  font-weight: 400;
+  font-size: 15px;
+}
+.nav-login-text {
+  color: black;
+  margin-right: 5px;
+
+}
+
+
+.nav-right-section {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  width: 250px;
+}
+.nav-right-icons-box {
+  
+  margin-left: 110px;
+}
+.nav-right-icons {
+  height: 25px;
+  width: 25px;
+  margin-left: 10px;
+}
+
+.hero-section {
+  background-color: #fdf8ee;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  
+}
+.hero-left-section {
+  background-color: #fdf8ee;
+  align-items: center;
+  padding: 110px 70px;
+
+}
+.hero-heading {
+  line-height: 1.2;
+  font-size: 43px;
+  font-weight: 400;
+}
+.hero-description {
+  margin-bottom: 25px;
+  line-height: 1.6;
+  max-width: 500px;
+}
+
+.hero-about-us-button {
+  background-color: #a8642f;
+  color: white;
+  border-style: solid;
+  border-color: #a8642f;
+  border-radius: 5px;
+  padding: 15px 29px;
+  margin-right: 15px;
+  font-size: 15px;
+}
+.hero-contact-us-button {
+  background-color: transparent;
+  color: #2F4F3E;
+  border: 2px solid #2F4F3E;
+  border-radius: 5px;
+  padding: 15px 29px;
+  margin-right: 15px;
+  font-size: 15px;
+}
+
+.hero-image {
+  width: 85%;
+  
+}
