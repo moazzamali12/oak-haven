@@ -2,7 +2,7 @@
   line-height: 1.2;
   font-size: 40px;
   font-weight: 400;
-  margin: 25px 0 10px 50px;
+  margin: 100px 0 10px 50px;
 }
 .main-collection-description {
   margin-bottom: 25px;
@@ -33,10 +33,10 @@
   z-index: 10;
   background-color: red;
   color: white;
-  padding: 2px 5px;
+  padding: 3px 8px;
   border-radius: 5px;
   margin-top: 10px;
-  margin-left: 350px;
+  margin-left: 345px;
 }
 
 .product-card-image {
@@ -89,7 +89,7 @@
   display: flex;
   column-gap: 35px;
   justify-content: center;
-  margin-top: 70px; 
+  margin-top: 100px; 
   
 }
 .image-about-comapny-section {
@@ -133,7 +133,7 @@
 
 .blogs-section-heading {
   text-align: center;
-  margin-top: 70px;
+  margin-top: 100px;
   margin-bottom: 0;
   line-height: 1.2;
   font-size: 40px;
