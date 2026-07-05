@@ -146,10 +146,58 @@ input {
   border-color: #2F4F3E;
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
-  height: 47.5px;
+  height: 48.6px;
   width: 110px;
   margin-right: 2px;
   margin-top: 0;
   margin-bottom: 0px;
   font-size: 15px;
+}
+
+.bottom-section-header {
+  display: flex;
+  gap: 1px;
+  background-color: white;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  margin-top: 100px;
+}
+
+.bottom-section-header p {
+  color: white;
+  margin: 0;
+  background-color: #2F4F3E;
+  flex: 1;
+  text-align: center;
+  padding: 13px 0;
+}
+
+.footer {
+  display: flex;
+  gap: 1px;
+  background-color: #fdf8ee;
+}
+
+.footer-column {
+  justify-content: center;
+  text-align: center;
+  flex: 1;
+  margin: 15px 35px;
+}
+
+.bottom-logo-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.bottom-logo {
+  width: 12%;
+  object-fit: contain;
+  margin-top: 15px;
+}
+
+.bottom-logo-box p {
+  font-size: 14px;
+  
 }
